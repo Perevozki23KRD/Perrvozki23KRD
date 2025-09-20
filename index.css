@@ -1,0 +1,53 @@
+body {
+    background-color: #000000;
+  padding: 15px;
+}
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}
+@font-face {
+    font-family: M;
+    src: url(Minecraft.ttf);
+   }
+@font-face {
+    font-family: I;
+    src: url(Impact.ttf);
+   }
+p { font-family: I, sans-serif;
+color: #ffffff;}
+   }
+div { font-family: I, sans-serif;
+  color: #ffffff;
+}
+.box {
+    font-family: I;
+    font-size: 24px;
+    background-color: #818181;
+    text-align: center;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    padding: 10px 3px 10px 3px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.box img {
+    top: 5px;
+    width: auto;
+    max-width: 95%;
+    height: auto;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.box p {
+    font-size: 21px;
+    text-align: left;
+    color: #000000;
+    padding-left: 5%;
+}
